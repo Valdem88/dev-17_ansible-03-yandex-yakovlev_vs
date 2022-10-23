@@ -76,10 +76,10 @@ ansible-03-yandex
 
 ``` 
 
-- Дописаны [конфигурационные файлы](templates) для настройки сервисов 
-- Созданы необходимые [group_vars](group_vars)
-- Инвентори `prod.yaml` собирает [terraform](terraform/inventory.tf) в процессе инициализации инфраструктуры
-- Запуск плейбука `site.yml` происходит автоматически из [terraform](terraform/ansible.tf) после деплоя машин и формирования файла инвентори
+- Дописаны [конфигурационные файлы](ansible_yc/templates) для настройки сервисов 
+- Созданы необходимые [group_vars](ansible_yc/group_vars)
+- Инвентори `prod.yaml` собирает [terraform](ansible_yc/terraform/inventory.tf) в процессе инициализации инфраструктуры
+- Запуск плейбука `site.yml` происходит автоматически из [terraform](ansible_yc/terraform/ansible.tf) после деплоя машин и формирования файла инвентори
 
    * Для запуска - перейти в каталог с terraform, запустить init и далее apply
 ```bash
