@@ -88,7 +88,7 @@ root@server1:~/ansible_yc/terraform# terraform apply -auto-approve
 
 ![](pic/terraform_job.jpg)
 
-![](pic/Yandex Compute Cloud_VM.jpg)
+![](pic/YandexComputeCloud_VM.jpg)
 
 В Yandex Cloud с помощью terraform и ansible создано три машины на которых установлены сервисы - `clickhouse, vector и lighthouse`.
 
